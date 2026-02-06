@@ -2,38 +2,79 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Website Pertamaku</title>
+  <title>Website Estetik</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body{
-      font-family: Arial, sans-serif;
-      background:#f2f2f2;
-      text-align:center;
-      padding:40px;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
     }
-    .box{
-      background:white;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
     }
-    a{
-      display:inline-block;
-      margin-top:15px;
-      padding:10px 15px;
-      background:#2196f3;
-      color:white;
-      text-decoration:none;
-      border-radius:5px;
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 30px;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+
+    .card h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: linear-gradient(45deg, #ff512f, #dd2476);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255,255,255,0.5);
     }
   </style>
 </head>
 <body>
 
-  <div class="box">
-    <h1>Halo 👋</h1>
-    <p>Web Ai wajah</p>
-    <a href="https://william-slim-meat-jury.trycloudflare.com">Kunjungi Google</a>
+  <div class="card">
+    <h1>Ubah wajah mu menjadi Anime ✨</h1>
+    <p>Klik di bawah untuk mulai</p>
+    <a href="https://biography-share-strengthen-brakes.trycloudflare.com"</a>  Klik untuk mulai verifikasi Ai
   </div>
 
 </body>
